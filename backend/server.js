@@ -10,9 +10,8 @@ app.use(cors());
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
-mongoose.connect(
-  "mongodb+srv://faizyjutt11:Faiziii9611@cluster0.xsnxxoo.mongodb.net/Skill_Nest_Institue?retryWrites=true&w=majority"
-);
+mongoose.connect(process.env.MONGO_ATLAS_URL);
+
 const connection = mongoose.connection;
 connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
