@@ -1,0 +1,35 @@
+.abooutusContent {
+  color: white;
+  letter-spacing: 1px;
+  
+}
+.afterMainAbout {
+  min-height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+.imgAbout2Div {
+  height: 80vh;
+  width: 70vw;
+  background: url("../../Assets/aboutus2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  .afterMainAbout {
+    width: 80vw;
+  }
+}
+@media (max-width: 550px) {
+  .afterMainAbout {
+    width: 90vw;
+  }
+  .imgAbout2Div {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,50 @@
+.courseMain {
+  position: relative;
+}
+.imgCourseMain {
+  height: 90vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1602992708529-c9fdb12905c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: brightness(40%);
+}
+.courseContent {
+  height: 100vh;
+  position: relative;
+}
+.imgDivSingleCourse {
+  height: 70vh;
+  margin: 2rem 2rem;
+}
+.imgSingleCourse {
+  height: 100%;
+  border-radius: 20px;
+}
+.text-just {
+  text-align: justify;
+  font-size: 13px;
+}
+@media (max-width: 767px) {
+  .remainingDataCourseOne {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .remainingDataCourseOne {
+    margin: 22rem 3rem 2rem 3rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .remainingDataCourseOne {
+    margin: 27rem 2rem 2rem 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .remainingDataCourseOne {
+    margin: 30rem 2rem 2rem 2rem;
+  }
+}

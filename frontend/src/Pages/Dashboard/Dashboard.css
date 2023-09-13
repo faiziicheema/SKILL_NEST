@@ -1,0 +1,369 @@
+.dashboardMain {
+  position: relative;
+}
+.imgDashboardMain {
+  position: absolute;
+  height: 110vh;
+  width: 100vw;
+  background: url("../../Assets/bgMain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.contentAfterHeader {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 3rem;
+}
+.imgLogoMain {
+  /* backdrop-filter: blur(20px); */
+  width: 20%;
+  margin-bottom: 2rem;
+}
+.strongContent {
+  letter-spacing: 10px;
+  color: white;
+}
+.h1Content {
+  color: white;
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+b {
+  color: rgb(237, 237, 237);
+}
+.btnContent {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: all 1s;
+}
+.btnContent:hover {
+  background-color: white;
+  color: #3c78be;
+  border: 1px solid #3c78be;
+}
+.popularcourses {
+  padding: 10rem 0;
+}
+.popularcoursedCard {
+  /* height: 70vh; */
+  width: 25vw;
+  margin-top: 1rem;
+}
+.popularH5 {
+  letter-spacing: 10px;
+}
+.imgPopular img {
+  width: 100%;
+  height: 320px;
+  border-radius: 12px;
+}
+.contentPopularDiv {
+  margin: 0 1rem;
+}
+.checked {
+  color: orange;
+}
+.starsRatings {
+  margin: 0 2px;
+}
+.strongtypeopularCourse {
+  color: rgb(0, 203, 203);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.namepopularCourse {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sortAboutUs {
+  min-height: 100vh;
+}
+.imgsortAboutUs {
+  height: 80vh;
+  background: url("../../Assets/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.contentsortAboutUs {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.sortType {
+  letter-spacing: 8px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h2sortAbout {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.strongsortAbout {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.psortAbout {
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+li {
+  font-weight: bold;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btSortAbout {
+  padding: 1rem 2rem;
+  background-color: #3c78be;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: all 1s;
+}
+.btSortAbout:hover {
+  background-color: transparent;
+  color: #3c78be;
+  border: 1px solid #3c78be;
+}
+.CEOMain {
+  /* margin: 0 auto; */
+  min-height: 80vh;
+}
+.h2CEOLeft {
+  letter-spacing: 8px;
+}
+.contentCEO {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 10rem;
+  background: url("../../Assets/CEO.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatarMD {
+  width: 300px;
+  height: 300px;
+  border-radius: 10rem;
+  background: url("../../Assets/girlprofile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgba(128, 128, 128, 0.131);
+}
+.avatarF {
+  width: 300px;
+  height: 300px;
+  border-radius: 10rem;
+  background: url("../../Assets/Faizan.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatarZ {
+  width: 300px;
+  height: 300px;
+  border-radius: 10rem;
+  background: url("../../Assets/Zubair.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatarS {
+  width: 300px;
+  height: 300px;
+  border-radius: 10rem;
+  background: url("../../Assets/Sameer.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ceoName {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.imgTeachers {
+  width: 25vw;
+  height: 300px;
+  background: url("../../Assets/Faizan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1121px) {
+  .h2sortAbout {
+    font-size: 2rem;
+  }
+  .strongContent {
+    letter-spacing: 2px;
+  }
+  .h1Content {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 889px) {
+  .h1Content {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 332px) {
+  .strongContent {
+    font-size: 10px;
+  }
+  .h1Content {
+    font-size: 1.5rem;
+  }
+  .contentCEO {
+    margin-bottom: 8rem;
+  }
+}
+@media (max-width: 406px) {
+  .CEOMainDiv {
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 375px) {
+  .contentCEO {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 1400px) {
+  .popularcoursedCard {
+    width: 40vw;
+  }
+  .teachersDivMain {
+    margin-top: 4rem;
+  }
+  .MDMainDiv {
+    margin: 4rem 0;
+  }
+}
+@media (max-width: 1000px) {
+  .popularcoursedCard {
+    width: 40vw;
+  }
+  .contentsortAboutUs {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .CEOMainDiv {
+    margin: 8rem 0;
+  }
+  .MDMainDiv {
+    padding: 8rem 0;
+  }
+}
+@media (max-width: 1199px) {
+  .sortAboutUs {
+    margin-bottom: 4rem;
+  }
+  .MDMainDiv {
+    margin: 6rem 0;
+  }
+  .h2MDLeft {
+    /* letter-spacing: 0px; */
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .popularcoursedCard {
+    width: 50vw;
+  }
+}
+@media (max-width: 715px) {
+  .popularcoursedCard {
+    width: 70vw;
+  }
+}
+@media (max-width: 767px) {
+  .contentsortAboutUs {
+    margin-top: 5rem;
+  }
+  .avatar {
+    margin-top: 6rem;
+  }
+  .MDMainDiv {
+    margin: 0;
+  }
+  .h2MDLeft {
+    font-size: 15px;
+  }
+  .contentMD {
+    padding-top: 14rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (max-width: 575px) {
+  .popularHeadingDiv {
+    margin-left: 2rem;
+  }
+  .CEOMainDiv {
+    margin-top: 12rem;
+  }
+}
+@media (max-width: 471px) {
+  .CEOMainDiv {
+    margin-top: 15rem;
+  }
+  .imgLogoMain {
+    width: 30%;
+  }
+
+  .avatar {
+    margin-top: 10rem;
+  }
+  .contentMD {
+    margin: 4rem 0;
+  }
+}
+@media (max-width: 515px) {
+  .popularcoursedCard {
+    width: 90vw;
+  }
+  .contentsortAboutUs {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 401px) {
+  .popularcoursedCard {
+    width: 100vw;
+  }
+  .strongtypeopularCourse {
+    font-size: 12px;
+  }
+  .smallPopularCource {
+    font-size: 12px;
+  }
+  .contentsortAboutUs {
+    margin-top: 8rem;
+  }
+  .popularHeadingDiv {
+    margin-left: 1rem;
+  }
+  .contentMD {
+    margin: 7rem 0;
+  }
+}
